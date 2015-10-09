@@ -33,6 +33,11 @@ def mult(a, b):
 def div(a, b):
     return a / b
 
+# Power Function
+# a -- base
+# b -- exponent
+def exp(a, b):
+    return a ** b
 
 # -------------------------------------------------------- #
 
@@ -65,6 +70,8 @@ while (True):
             print "Difference: ", sub(a, b)
         elif (op == "*"):
             print "Product: ", mult(a, b)
+        elif (op == "**"):
+            print "Result: ", exp(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
         else:
